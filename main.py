@@ -127,7 +127,7 @@ print("網址為:",cloud_url)
 
 ## line 發送訊息設定--begin
 
-CHANNEL_ACCESS_TOKEN = "kiSo42fYWolmTCxoS7Aaq8pMxaoeV31aAWE1EGumrypyTQQDszW7qF4E698oPUW4AmHFrXIvVA2Z2HYVSQyLudzk2owmDEXYhGIZJjPIOZbEmBmmg16R08rqXe1z+5nQJfzjYdj/LdckufFYotv8PwdB04t89/1O/w1cDnyilFU="
+CHANNEL_ACCESS_TOKEN = os.environ.get("LINE_CHANNEL_ACCESS_TOKEN")
 # USER_ID = "Uf51ffd305ce026921198cca620f8b554"
 headers = {
     "Content-Type": "application/json",

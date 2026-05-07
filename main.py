@@ -9,9 +9,9 @@ import cloudinary.uploader
 #
 # ##cloudinary 雲端 設定--begin
 cloudinary.config(
-    cloud_name="dvfikwdkj",
-    api_key="233866619965681",
-    api_secret="9QqqS86WnE082iskQ9bT3_EaM0s"
+    cloud_name="di471nw49",
+    api_key="964463184394476",
+    api_secret="nwBLKhODhFeF5SLKftWgSvo20_c"
 )
 # ##cloudinary 雲端 設定--end
 #
